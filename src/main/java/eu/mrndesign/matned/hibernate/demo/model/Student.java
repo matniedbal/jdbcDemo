@@ -36,6 +36,7 @@ public class Student {
     @Column(name = "dead")
     private boolean isDead;
 
+    @Enumerated(value = EnumType.STRING)
     private Behaviour behaviour;
 
 
