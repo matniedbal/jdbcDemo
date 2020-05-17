@@ -2,10 +2,12 @@ package eu.mrndesign.matned.jdbc.test.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class Student {
@@ -15,7 +17,7 @@ public class Student {
     private String surname;
     private double average;
     private int age;
-    private boolean isPresent;
+    private boolean isDead;
 
 
 }
